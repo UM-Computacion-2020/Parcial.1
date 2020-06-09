@@ -2,8 +2,8 @@ FROM python:3
 
 WORKDIR /app
 
-RUN git clone https://github.com/AgnidDrage/Parcial.1.git
+RUN git clone https://github.com/AgnidDrage/Primer-Parcial.git
 
-WORKDIR /app/Parcial.1/59081.Sanchez.Toledo.Mariano
+WORKDIR /app/Primer-Parcial
 
 CMD ["python3", "test_book.py"] && ["python3", "test_members.py"]
