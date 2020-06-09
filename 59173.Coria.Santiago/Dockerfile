@@ -4,4 +4,4 @@ RUN git clone https://github.com/santicoria/Personal.git
 
 WORKDIR /Personal/Parcial
 
-CMD ["python3", "test_book.py", "test_member.py"]
+CMD ["python3", "test_book.py"]&&["python3", "test_member.py"]
