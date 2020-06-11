@@ -1,0 +1,9 @@
+FROM python:3
+
+WORKDIR /app
+
+RUN git clone https://github.com/AgnidDrage/Primer-Parcial.git
+
+WORKDIR /app/Primer-Parcial
+
+CMD ["python3", "test_book.py"] && ["python3", "test_members.py"]
